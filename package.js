@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'aldeed:autoform-bs-datetimepicker',
-  summary: 'Custom bootstrap-datetimepicker input type with timezone support for AutoForm',
-  version: '1.0.6',
-  git: 'https://github.com/aldeed/meteor-autoform-bs-datetimepicker.git'
+  name: 'goooseman:autoform-bs-datetimepicker',
+  summary: 'Eonasdan v4 bootstrap-datetimepicker input type with timezone support for AutoForm',
+  version: '2.0.0',
+  git: 'https://github.com/goooseman/meteor-autoform-bs-datetimepicker.git'
 });
 
 Package.onUse(function(api) {

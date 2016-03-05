@@ -1,7 +1,9 @@
-aldeed:autoform-bs-datetimepicker
+goooseman:autoform-bs-datetimepicker
 =========================
 
 An add-on Meteor package for [aldeed:autoform](https://github.com/aldeed/meteor-autoform). Provides a single custom input type, "bootstrap-datetimepicker", which renders an input using the [bootstrap-datetimepicker](http://eonasdan.github.io/bootstrap-datetimepicker/) plugin.
+
+**Now works with the latest v4 version of the datetimepicker!**
 
 ## Prerequisites
 
@@ -11,7 +13,7 @@ In a Meteor app directory, enter:
 
 ```bash
 $ meteor add twbs:bootstrap
-$ meteor add tsega:bootstrap3-datetimepicker@=3.1.3_3
+$ meteor add tsega:bootstrap3-datetimepicker
 $ meteor add aldeed:autoform
 ```
 
@@ -26,7 +28,7 @@ $ meteor add mrt:moment-timezone
 In a Meteor app directory, enter:
 
 ```bash
-$ meteor add aldeed:autoform-bs-datetimepicker
+$ meteor add goooseman:autoform-bs-datetimepicker
 ```
 
 ## Usage
@@ -112,12 +114,7 @@ If you want to customize the appearance of the input, for example to use an inpu
 Template.dpReplacement.replaces("afBootstrapDateTimePicker");
 ```
 
-## Demo
-
-[Live](http://autoform.meteor.com/types)
-
 ## Contributing
 
 Anyone is welcome to contribute. Fork, make your changes, and then submit a pull request.
 
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.1.3/dist/gratipay.png)](https://gratipay.com/aldeed/)
